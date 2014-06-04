@@ -28,8 +28,10 @@
   </div>
 </ion-content>
 
-<div class="bar bar-footer bar-positive">
-  <button ng-click="navShare()" ng-show="selectedEffects.length" class="button button-clear pull-right icon icon-right ion-ios7-arrow-right">
-  Continue
-  </button>
-</div>
+<ion-footer-bar align-title="left" class="bar-positive">
+  <div class="buttons pull-right">
+    <button ng-click="navShare()" ng-show="selectedEffects.length" class="button button-clear icon icon-right ion-ios7-arrow-right">
+    Continue
+    </button>
+  </div>
+</ion-footer-bar>
